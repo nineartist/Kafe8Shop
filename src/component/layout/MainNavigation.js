@@ -14,6 +14,9 @@ function MainNavigation() {
             <Link to="/">Our Menus</Link>
           </li>
           <li>
+            <Link to="/addMenu">Add Menu</Link>
+          </li>
+          <li>
             <Link to="/cart">
               Cart
               <span className={classes.badge}>{cartCtx.totalOrder}</span>
