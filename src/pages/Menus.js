@@ -3,6 +3,12 @@ import { useState, useEffect } from "react";
 
 import OrderList from "../component/Order/OrderList";
 
+// Bootstrap CSS
+import "bootstrap/dist/css/bootstrap.min.css";
+// Bootstrap Bundle JS
+import "bootstrap/dist/js/bootstrap.bundle.min";
+import Carousel from "react-bootstrap/Carousel";
+
 // const DUMMY_DATA = [
 //   {
 //     id: "m1",
@@ -53,7 +59,6 @@ function Menus(props) {
 
   return (
     <section>
-      <h1>Our Menus here</h1>
       <OrderList orders={loadedOrders} />
     </section>
   );
